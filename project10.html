@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./project10.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar navbar-expand-md bg-dark text-center navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="./svg-files/Method Draw Image(8).png"
+            alt="logo"
+            id="logo"
+          />
+          <span>Artist</span>
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#author">Author</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 bg-dark text-white sidebar">
+          <div class="card bg-dark text-white">
+            <div class="card-header">
+              <h5 class="card-title">Latest Stories</h5>
+            </div>
+            <div class="card-body">
+              <p>link1</p>
+              <p>link2</p>
+              <p>link3</p>
+            </div>
+          </div>
+          <br />
+          <div class="card bg-dark text-center text-white">
+            <div class="card-header">
+              <h5 class="card-title">darshan sawant</h5>
+              <h6 class="card-text">Web developer</h6>
+            </div>
+            <div class="card-body text-center">
+              <img src="./svg-files/undraw_Coding_re_iv62.svg" alt="guy" class="profile img-fluid" />
+              <p class="card-text">hi i am Artist</p>
+              <button class="btn">see profile</button>
+            </div>
+            <div class="card-footer">
+              <p class="text-muted">date</p>
+            </div>
+          </div>
+          <br />
+          <div class="fluid-container image-container"></div>
+        </div>
+        <div class="col-sm-9 main">
+          <br />
+          <br />
+          <div class="header text-center">
+            <h1>Artist name</h1>
+            <h2 class="text-muted">artist position</h2>
+          </div>
+          <br />
+          <div class="row artist-profile">
+            <div class="artist-img col-sm-3">
+              <img
+                class="img-fluid"
+                src="./svg-files/undraw_monster_artist_2crm.svg"
+                alt="monster"
+              />
+              <br />
+              <br />
+              <img
+                class="img-fluid"
+                src="./svg-files/undraw_dream_world_cin1.svg"
+                alt="dream"
+              />
+            </div>
+            <div class="artist-content col-sm-9">
+              <p class="">
+                <span>L</span>orem ipsum dolor sit amet consectetur adipisicing
+                elit. Enim consequatur pariatur doloribus numquam iure! Earum
+                placeat consequatur iusto pariatur nam facere accusamus
+                cupiditate excepturi animi a consequuntur quidem nulla eos
+                asperiores quibusdam id temporibus magni, labore obcaecati.
+                Nostrum quas perferendis, repudiandae iure, magni praesentium
+                debitis vitae eius, id laboriosam dicta autem itaque impedit
+                quibusdam animi nobis odit ducimus quod tenetur unde officia. Ad
+                nam placeat vero velit quo provident laudantium hic. Mollitia
+                totam numquam cupiditate dolorem deserunt placeat neque,
+                sapiente est pariatur, dolores doloremque earum culpa nesciunt
+                magni accusantium minus corporis commodi vel dolor impedit
+                repellendus nemo facere voluptatem. Facilis!
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+                veniam eaque accusantium consectetur quidem inventore quae,
+                molestiae voluptatem unde labore officiis est hic fugit fugiat
+                neque eos illo ab, libero non. Fugiat autem error delectus eum
+                accusantium fuga doloremque architecto, natus, dolorum est
+                vitae, minus nobis minima asperiores aut cum.
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Necessitatibus ut natus sunt ullam? Rem quae voluptates porro
+                molestiae similique quod minus animi rerum aperiam dolore!
+              </p>
+            </div>
+          </div>
+          <div class="showMore">
+            <div class="slider">
+              <button class="btn-back btn">&#8592;</button>
+              <button class="btn-next btn">&#8594;</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+    <br>
+    <footer class="text-center bg-dark">
+      Darshansawant1995@gmail.com
+    </footer>
+    <script src="./project10.js"></script>
+  </body>
+</html>
