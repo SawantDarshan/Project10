@@ -95,6 +95,3 @@ h1,
 h2 {
   text-transform: capitalize;
 }
-.navbar {
-  position: sticky;
-}
